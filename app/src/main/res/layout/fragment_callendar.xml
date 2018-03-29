@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="loucass.kfet.fragments.Callendar">
+
+    <com.alamkanak.weekview.WeekView
+        android:id="@+id/weekView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:eventTextColor="@android:color/white"
+        app:dayNameLength="length_short"
+        app:textSize="12sp"
+        app:hourHeight="47dp"
+        app:headerColumnPadding="3dp"
+        app:headerColumnTextColor="#8f000000"
+        app:headerRowPadding="10dp"
+        app:columnGap="0dp"
+        app:noOfVisibleDays="4"
+        app:headerRowBackgroundColor="#ffefefef"
+        app:dayBackgroundColor="#05000000"
+        app:todayBackgroundColor="#1848adff"
+        app:headerColumnBackground="#ffffffff"/>
+
+</FrameLayout>
